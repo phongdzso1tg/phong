@@ -1,0 +1,130 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.slide-img img {
+  width: 100%;
+  height: 500px;
+}
+.band {
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.form input {
+  width: 500px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form button {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+}
+.form button:hover {
+  background-color: grey;
+  color: black;
+}
+
+.members {
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+}
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding: 10px;
+}
+.hinh {
+  margin-top: 10px;
+  padding: 10px;
+}
+.foter {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.footer {
+  text-decoration: underline;
+}
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+
+}
+
+.contact{
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.merry{
+text-align: center;
+}
+.button{
+  background-color:red;
+  color: white;
+  height: 40px;
+  }
+  .checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+.header ul {
+  display: flex;
+  list-style: none;
+ 
+ 
+}
+.header ul li {
+  padding: 22px;
+  color: white;
+ 
+  
+}
+.header ul li a{
+ text-decoration: none;
+ color: white;
+ 
+  
+}
+.header ul li:hover {
+  background-color: grey;
+  color:black;
+  cursor: pointer;
+  
+}
+.merry{
+  font-size: larger;
+}
+.dangki{
+  background-color: red;
+  
+}
+.content-container{
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
